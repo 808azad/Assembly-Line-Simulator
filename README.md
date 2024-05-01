@@ -1,6 +1,8 @@
 # Project: Assembly-Line-Simulator
 
-The purpose of this project is to apply advanced Object-Oriented concepts in C++ to simulate an assembly line with customizable stations. The initial demonstration depicts a line with three stations, as shown in the figure below:
+The purpose of this project is to apply advanced Object-Oriented concepts in C++ to simulate an assembly line with customizable stations. The initial demonstration depicts a line with three stations, as shown in the figure below.
+
+## Demonstration of Assembly Line
 
 <div align="center">
 
