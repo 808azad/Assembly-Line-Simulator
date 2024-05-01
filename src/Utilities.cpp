@@ -1,13 +1,3 @@
-/*
-	Name: Azad Zeynalov
-	StudentID: 112217229
-	Email: azeynalov1@myseneca.ca
-	Date of Completion: 2024-03-10
-
-	I confirm that I am the only author of this file
-    and the content was created entirely by me.
-*/
-
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -26,7 +16,6 @@ namespace seneca {
 		return m_widthField;
 	}
 
-	// THIS METHOD WILL BE MODIFIED IN LATER MILESTONES IN CASE IF THERE IS A NEED
 	string Utilities::extractToken(const std::string& str, size_t& next_pos, bool& more) {
 		string token{};
 		if (str[next_pos] == m_delimiter) {

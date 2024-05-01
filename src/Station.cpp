@@ -1,12 +1,3 @@
-/*
-	Name: Azad Zeynalov
-	StudentID: 112217229
-	Email: azeynalov1@myseneca.ca
-	Date of Completion: 2024-03-10
-
-	I confirm that I am the only author of this file
-	and the content was created entirely by me.
-*/
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -24,17 +15,12 @@ namespace seneca {
 		Utilities ut;
 		bool more = true;
 		size_t position = 0;
-		//try {
 		m_stationName = ut.extractToken(str, position, more);
 		m_serialNumber = stoi(ut.extractToken(str, position, more));
 		m_quantityOfStockItems = stoi(ut.extractToken(str, position, more));
 		Station::m_widthField = max(Station::m_widthField, ut.getFieldWidth());
 		m_stationDescription = ut.extractToken(str, position, more);
 		m_stationID = ++Station::id_generator;
-		/*}
-		catch (const string& ERROR) {
-			cout << "ERROR: " << ERROR << endl;
-		}*/
 	}
 
 	const string& Station::getItemName() const {
