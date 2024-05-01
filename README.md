@@ -16,7 +16,7 @@ The assembly line consists of a set of workstations each of which holds a set of
 To compile and test how this program works, use the following command:
 
 ```bash
-g++ -Wall -std=c++11 -g -o ws file1.cpp file2.cpp ...
+g++ -Wall -std=c++11 -g -o assemblyLine file1.cpp file2.cpp ...
 ```
 
 ## Files To Use
@@ -32,4 +32,10 @@ Workstation.h
 Workstation.cpp
 LineManager.h
 LineManager.cpp
+```
+
+## Important Note
+To ensure the correct functioning of the application, please specify the provided text files as command line arguments:
+```bash
+  Command Line: assemblyLine Stations1.txt Stations2.txt CustomerOrders.txt AssemblyLine.txt
 ```
