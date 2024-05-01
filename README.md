@@ -36,10 +36,10 @@ LineManager.cpp
 
 ## Important Note
 To ensure the correct functioning of the application, please specify the provided text files as command line arguments:
-![Stations1.txt](src/Stations1.txt)
-![Stations2.txt](src/Stations2.txt)
-![CustomerOrders.txt](src/CustomerOrders.txt)
-![AssemblyLine.txt](src/AssemblyLine.txt)
+[Stations1.txt](src/Stations1.txt)
+[Stations2.txt](src/Stations2.txt)
+[CustomerOrders.txt](src/CustomerOrders.txt)
+[AssemblyLine.txt](src/AssemblyLine.txt)
 ```bash
   Command Line: assemblyLine Stations1.txt Stations2.txt CustomerOrders.txt AssemblyLine.txt
 ```
