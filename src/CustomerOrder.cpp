@@ -1,12 +1,3 @@
-/*
-	Name: Azad Zeynalov
-	StudentID: 112217229
-	Email: azeynalov1@myseneca.ca
-	Date of Completion: 2024-04-06
-
-	I confirm that I am the only author of this file
-	and the content was created entirely by me.
-*/
 #include <iostream>
 #include <iomanip>
 #include <string>
